@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical7</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 2200px;
+        }
+        .header{
+            width: 98%;
+            height: 50px;
+            background-color:rgba(0, 0, 0, 0.801);
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        .banner{
+            width: 98%;
+            height: 800px;
+            background-color: cyan;
+            margin: auto;
+            margin-top: 10px;
+            text-align: center;
+            
+        }
+        h1{
+            text-align: center;
+            margin: 40px;
+        }
+        .section1{
+            height: 20%;
+            margin: auto;
+            margin-top: 10px;
+            width: 98%;
+        }
+        #logo1{
+            background-color:white;
+            width: 200px; ;
+            height: 80%;
+            border-radius: 50%;
+            float: left;
+            margin-left: 255px;
+            margin-top: 30px;
+            
+
+        }
+        #logo2{
+            background-color:white;
+            width: 200px; ;
+            height: 80%;
+            border-radius: 50%;
+            float: left;
+            margin-left: 80px;
+            margin-top: 30px;
+            
+        }
+        #logo3{
+            background-color:white;
+            width: 200px; ;
+            height: 80%;
+            border-radius: 50%;
+            float: left;
+            margin-left: 80px;
+            margin-top: 30px;
+            
+        }
+        #logo4{
+            background-color:white;
+            width: 200px; ;
+            height: 80%;
+            border-radius: 50%;
+            float: left;
+            margin-left: 80px;
+            margin-top: 30px;
+            
+        }
+        .section2{
+            height: 400px;
+            margin: auto;
+            margin-top: 10px;
+            width: 98%;
+            text-align: center;
+        }
+        .maincontent{
+            height: 100%;
+            width: 50%;
+            background-color: gray;
+            float: left;
+            text-align: justify;
+            
+        }
+        .article1{
+            width: 48%;
+            height: 117px;
+            float: right;
+            margin: 10px;
+            background-color: khaki;
+            overflow: hidden;
+            
+            
+        }
+        .article2{
+            width: 48%;
+            height: 117px;
+            float: right;
+            margin: 10px;
+            background-color: khaki;
+            overflow: hidden;
+            
+        }
+        
+        .article3{
+            width: 48%;
+            height: 117px;
+            float: right;
+            margin: 10px;
+            background-color: khaki;
+            overflow: hidden;
+        }
+        .section3{
+            height: 250px;
+            margin: auto;
+            margin-top: 10px;
+            margin: auto;
+            width: 98%;
+        }
+        .rectangle1{
+            border: solid tomato;
+            width: 20%;
+            height: 98%;
+            margin: 5px;
+            margin-left: 125px;
+            float: left;
+            background-color:grey;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .rectangle2{
+            border: solid tomato;
+            width: 20%;
+            height: 95%;
+            margin: 5px;
+            float: left;
+            background-color:grey;
+            text-align: center;
+            justify-content: center;
+            text-align: center;
+           
+        }
+        .rectangle3{
+            border: solid tomato;
+            width: 20%;
+            height: 95%;
+            margin: 5px;
+            float: left;
+            background-color:grey;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .rectangle4{
+            border: solid tomato;
+            width: 20%;
+            height: 95%;
+            margin: 5px;
+            float: left;
+            background-color:grey;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        
+        
+        .foot{
+            width: 98%;
+            height: 50px;
+            background-color:violet;
+            margin: auto;
+            text-align: center;
+            
+            margin-top: 10px;
+        }
+        .header ul{
+            display: inline-flex;
+        }
+        .header ul li{
+           margin: 1px;
+           width: 180px;
+           list-style: none;
+           
+        }
+        .header ul li a{
+            text-decoration: none;
+            color: white;
+            font-family: aerial;
+            font-size: large;
+            
+        }
+        .header ul li :hover{
+            background-color: white;
+            color: black;        
+        }
+        .banner img{
+            width: 100%;
+            height: 100%;
+        }
+        .section1 img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+
+        }
+        .rectangle1 img{
+            width: 100%;
+            height: 100px;
+        }
+        .rectangle2 img{
+            width: 100%;
+            height: 100px;
+        }
+        .rectangle3 img{
+            width: 100%;
+            height: 100px;
+        }
+        .rectangle4 img{
+            width: 100%;
+            height: 100px;
+        }
+        .section3 a{
+            text-decoration: none;
+            color: white;
+             display: block;
+             font-family: Arial;
+             background-color: red;
+             padding: 10px 20px;
+             border-radius: 10px;
+
+        }
+        .section3 a:hover{
+            background-color: blue;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUTUS</a></li>
+                <li><a href="#section-1">TEAM</a></li>
+                <li><a href="#technology">TECHNOLOGIES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="banner" >
+            <img src="./image/banner.jpg" alt="">
+        </div>
+        <h1 id="section-1">Team Members</h1>
+        
+        <div class="section1">
+            <div id="logo1">
+                <img src="./image/avatar-11 - Copy.png" alt="">
+            </div>
+            <div id="logo2">
+                <img src="./image/avtar2-removebg-preview.png" alt="">
+            </div>
+            <div id="logo3"><img src="./image/avatar-11.png" alt=""></div>
+            <div id="logo4"><img src="./image/avatar-4.png" alt=""></div>
+        </div>
+        <h1 id="about">About Us</h1>
+        <div class="section2">
+            <div class="maincontent"><h4>About Project</h4> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus esse voluptas natus, reiciendis qui cumque sint quam. Explicabo, cum libero corrupti ea aliquam laborum maiores nostrum veniam alias quisquam natus.
+            Dicta minus tenetur odit! Animi natus quaerat sed, eum laboriosam, fuga praesentium, minima placeat nesciunt temporibus distinctio aliquid obcaecati est impedit deserunt. Necessitatibus nihil aliquid maiores sint natus adipisci nostrum!
+            Non, atque tenetur consectetur neque impedit praesentium maxime! Tenetur tempore, unde accusantium corrupti magni consequatur soluta, est aspernatur cupiditate quas nemo adipisci dolorum consequuntur. Totam voluptates aperiam nihil debitis sed.
+            Nam id optio rem ex ducimus reiciendis illo aperiam repellat aut recusandae veritatis accusantium hic non, voluptas, sed distinctio nemo, dolorum dicta debitis cupiditate ab eaque numquam! Labore, temporibus necessitatibus?
+            Deleniti sit velit consectetur quos soluta blanditiis porro, nostrum architecto modi omnis veniam quae, consequuntur sunt voluptatem cupiditate. Quo sunt repudiandae ex, distinctio cupiditate quibusdam placeat eos libero nesciunt dolores!
+            Iste recusandae ex laborum eveniet enim minima dolorem libero aliquid, fugiat consequatur quod illo fuga mollitia necessitatibus dignissimos, deserunt accusamus excepturi quo nesciunt eligendi deleniti, harum commodi. Autem, dolorem assumenda. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam molestiae praesentium facilis eligendi, omnis fugiat quod ut, inventore aut totam ratione nobis eveniet ipsum, quos laudantium. Quia perspiciatis, aperiam iure tempore placeat maxime, vel aut dolores ut cupiditate consequuntur aliquid quos mollitia illum laudantium error quae id tenetur ex quisquam doloribus odit maiores. Fuga quas praesentium velit? Exercitationem?
+           </div>
+            <div class="article1">
+                <img src="./image/Project1.jpg" alt="">
+            </div>
+            <div class="article2">
+                <img src="./image/Project2.png" alt="">
+            </div>
+            <div class="article3">
+                <img src="./image/Project3.jpg" alt="">
+            </div>
+        </div>
+        <h1 id="technology">Technology Used</h1>
+        <div class="section3">
+            <div class="rectangle1">
+                <img src="./image/html2.jpg" alt="">
+                <h3>Introduction to html</h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, non impedit? Eveniet aliquam eius illo totam. A fugit cupiditate impedit?<br>
+              <a href="https://amankumar2509.github.io/HTML/">Read more</a>
+            </div>
+            <div class="rectangle2">
+                <img src="./image/CSS2.png" alt="">
+                <h3>Introduction to CSS</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, non impedit? Eveniet aliquam eius illo totam. A fugit cupiditate impedit?<br>
+                <a href="https://amankumar2509.github.io/CSS/">Read more</a>
+            </div>
+            <div class="rectangle3">
+                <img src="./image/Jquery.png" alt="">
+                <h3>Introduction to Javascript</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, non impedit? Eveniet aliquam eius illo totam. A fugit cupiditate impedit?<br>
+                <a href="https://amankumar2509.github.io/Javascript/">Read more</a>
+            </div>
+            <div class="rectangle4">
+                <img src="./image/bootstrap.png" alt="">
+                <h3>Introduction to Bootstrap</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, non impedit? Eveniet aliquam eius illo totam. A fugit cupiditate impedit?<br>
+                <a href="https://amankumar2509.github.io/Bootstrap/">Read more</a>
+            </div>
+        </div>
+        <h1 id="contact">CONTACT</h1>
+        <div class="section4">
+            <div class=foot>website Template <br>
+                <a href="#">Back to top</a>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
